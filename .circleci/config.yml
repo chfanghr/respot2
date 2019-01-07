@@ -6,6 +6,7 @@ jobs:
     steps:
       - checkout
       - run: make
+      - run: make clean
 workflows:
   version: 2
   build_and_test:
