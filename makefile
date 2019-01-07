@@ -1,3 +1,7 @@
+.PHONY: all
+all: build
+	@echo >> /dev/null
+
 ifeq ($(GOPATH),)
 GOPATH=$(HOME)/go
 endif
