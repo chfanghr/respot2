@@ -21,7 +21,7 @@ ifeq ($(UNAME), Darwin)
 	@brew install protobuf
 endif
 ifeq ($(UNAME), Linux)
-	@sudo apt-get install protobuf-compiler
+	@sudo apt-get -y install protobuf-compiler
 endif
 
 $(PROTOC_GEN_GO):
