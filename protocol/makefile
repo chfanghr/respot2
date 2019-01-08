@@ -14,7 +14,7 @@ build: *.pb.go
 	@echo "package spotify" >> spotify/spotify.go
 	@echo >> spotify/spotify.go
 	@echo "var Version = \"$(VERSION)\"" >> spotify/spotify.go
-	@go fmt spotify/*.go
+	@go fmt spotify/*.go >> spotify/spotify.go
 
 
 .PHONY: dep
