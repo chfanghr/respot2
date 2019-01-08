@@ -1,8 +1,7 @@
 module github.com/chfanghr/respot2
 
 require (
-    golang.org/x/net latest
-    github.com/golang/protobuf v1.2.0
+	github.com/golang/protobuf v1.2.0
+	golang.org/x/net v0.0.0-20190107210223-45ffb0cd1ba0
+	golang.org/x/sync v0.0.0-20181221193216-37e7f081c4d4 // indirect
 )
-
-replace golang.org/x/net => github.com/golang/net latest
