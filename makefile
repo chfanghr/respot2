@@ -54,7 +54,7 @@ go-build:
 .PHONY: build_protocol
 build_protocol:
 	$(call in_progress_msg,"building protocol")
-	@$(MAKE) -C protocol build >>$(LOGGER)
+	@$(MAKE) -C protocol >>$(LOGGER)
 	$(call finish_msg,"building protocal")
 
 .PHONY: build
