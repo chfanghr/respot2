@@ -54,7 +54,7 @@ go-build:
 .PHONY: build_protocol
 build_protocol:
 	$(call in_progress_msg,"building protocol")
-	@$(MAKE) -C protocol >>$(LOGGER)
+	@$(MAKE) -C protocol 
 	$(call finish_msg,"building protocal")
 
 .PHONY: build
@@ -64,7 +64,7 @@ build: show_version clean build_protocol go-mod-download go-mod-verify go-build
 .PHONY: clean
 clean:
 	$(call in_progress_msg,"cleaning up protocol")
-	@$(MAKE) -C protocol clean 
+	@$(MAKE) -C protocol clean
 	$(call finish_msg,"cleaning up protocol")
 	$(call in_progress_msg,"cleaning up build cache")
 	@-go clean ./...  >>$(LOGGER)
