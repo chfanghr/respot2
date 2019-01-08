@@ -64,7 +64,7 @@ build: show_version clean build_protocol go-mod-download go-mod-verify go-build
 .PHONY: clean
 clean:
 	$(call in_progress_msg,"cleaning up protocol")
-	@$(MAKE) -C protocol clean >>$(LOGGER)
+	@$(MAKE) -C protocol clean 
 	$(call finish_msg,"cleaning up protocol")
 	$(call in_progress_msg,"cleaning up build cache")
 	@-go clean ./...  >>$(LOGGER)
