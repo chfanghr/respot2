@@ -53,7 +53,7 @@ go-mod-download:
 .PHONY: go_build
 go-build:
 	$(call in_progress_msg,"building respot2")
-	@go build -v ./... >> $(LOGGER)
+	@go build -tags BUILDTAGS -v ./... >> $(LOGGER)
 	$(call finish_msg,"building respot2")
 
 .PHONY: build_protocol
