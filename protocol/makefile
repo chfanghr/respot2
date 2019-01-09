@@ -1,9 +1,17 @@
-PROTOC_GEN_GO := $(GOPATH)/bin/protoc-gen-go
-PROTOC := $(shell which protoc)
-
 ifeq ($(LOGGER),)
-LOGGER=/dev/null 2>&1
+LOGGER=/dev/stdout 2>&1
 endif
+
+ifeq ($(GOPATH),)
+LOGGER=$(HOME)/go
+endif
+
+PROTOC_GEN_GO= $(GOPATH)/bin/protoc-gen-go
+PROTOC= $(shell which protoc)
+
+INCLUDEDIR=proto/
+PROTOFILE=proto/*.proto
+OUTPUTDIR=./spotify
 
 .PHONY: all
 all: deps clean mkdir build
@@ -22,21 +30,16 @@ endif
 ifeq ($(UNAME), Linux)
 	@sudo apt-get -y install protobuf-compiler >>$(LOGGER)
 endif
+PROTOC= $(shell which protoc)
 
 .PHONY: build
-build: *.pb.go
+build:
+	@$(PROTOC) -I $(INCLUDEDIR) --plugin=$(PROTOC_GEN_GO) --go_out $(OUTPUTDIR) $(PROTOFILE) >>$(LOGGER)
 	@echo -n > spotify/spotify.go
 	@echo "package spotify" >> spotify/spotify.go
 	@echo >> spotify/spotify.go
 	@echo "var Version = \"$(VERSION)\"" >> spotify/spotify.go
 	@go fmt spotify/*.go >> spotify/spotify.go
-
-INCLUDEDIR:=proto/
-PROTOFILE:=proto/*.proto
-OUTPUTDIR:=./spotify
-
-*.pb.go: $(PROTOFILE)
-	@$(PROTOC) -I $(INCLUDEDIR) --plugin=$(PROTOC_GEN_GO) --go_out $(OUTPUTDIR) $(PROTOFILE) >>$(LOGGER)
 
 .PHONY: clean
 clean:
