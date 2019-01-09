@@ -7,9 +7,15 @@ GOPATH=$(HOME)/go
 endif
 
 ifeq ($(DEBUG),)
+BUILDTAGS=release
+else
+BUILDTAGS=debug
+endif
+
+ifeq ($(VERBOSE),)
 LOGGER=/dev/null 2>&1
 else
-LOGGER=$(PWD)/build_log 2>&1
+LOGGER=/dev/stdout 2>&1
 endif
 
 ifeq ($(VERSION),)
@@ -22,15 +28,14 @@ export GOPATH
 export VERSION
 export UNAME
 export LOGGER
+export BUILDTAGS
 
 define in_progress_msg
 	@echo "> $(1)..."
-	@echo "> $(1)..." >>$(LOGGER)
 endef
 
 define finish_msg
 	@echo "> $(1) finished"
-	@echo "> $(1) finished" >>$(LOGGER)
 endef
 
 .PHONY: go_mod_verify
@@ -48,7 +53,7 @@ go-mod-download:
 .PHONY: go_build
 go-build:
 	$(call in_progress_msg,"building respot2")
-	@go build -v ./... >>$(LOGGER)
+	@go build -tags $(BUILDTAGS) -v ./... >>$(LOGGER)
 	$(call finish_msg,"building respot2")
 
 .PHONY: build_protocol
