@@ -8,8 +8,6 @@ jobs:
       - run: DEBUG=1 VERBOSE=1 make
       - run: make test
       - run: DEBUG=1 VERBOSE=1 make clean
-      - run: VERBOSE=1 make
-      - run: VERBOSE=1 make clean
 workflows:
   version: 2
   build_and_test:
