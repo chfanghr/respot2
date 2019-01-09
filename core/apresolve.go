@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"golang.org/x/net/proxy"
+	"math/rand"
 	"net"
 	"net/http"
 	"sync"
@@ -61,17 +62,20 @@ func (a *APResolver) doJob(job func() error) error {
 	return job()
 }
 
-func (a *APResolver) GetAPList() (res []string, err error) {
-	resPtr := &res
-	err = a.doJob(func() (err error) {
-		if a.list.APList == nil {
-			err = errors.New("APResolver : empty aplist")
-			return
-		}
-		*resPtr = a.list.APList
-		return nil
-	})
+func (a APResolver) GetAPList() (res []string, err error) {
+	if len(a.list.APList) == 0 {
+		err = errors.New("APResolver : empty aplist")
+	}
+	res = a.list.APList
 	return
+}
+
+func (a APResolver) GetRandomAP() (string, error) {
+	apLists, err := a.GetAPList()
+	if err != nil {
+		return "", err
+	}
+	return apLists[rand.Intn(len(apLists))], nil
 }
 
 func (a *APResolver) Resolve() (err error) {
@@ -84,12 +88,12 @@ func (a *APResolver) Resolve() (err error) {
 				}
 			}
 		}()
-		if err != nil {
+		if err == nil {
 			return a.doJob(func() (err error) {
 				return json.NewDecoder(res.Body).Decode(&a.list)
 			})
 		}
-		return
+		return err
 	}
 	if err = tryEndpoint(APResolveEndpoint); err != nil {
 		if err = tryEndpoint(APFallBackEndpoint); err != nil {

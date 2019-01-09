@@ -2,6 +2,7 @@
 <module type="WEB_MODULE" version="4">
   <component name="Go" enabled="true" />
   <component name="NewModuleRootManager">
+    <content url="file://$USER_HOME$/extern/go/src/awesomeProject" />
     <content url="file://$MODULE_DIR$" />
     <content url="file://$USER_HOME$/trackDownloader" />
     <orderEntry type="inheritedJdk" />
