@@ -78,3 +78,7 @@ clean:
 .PHONY: show_version
 show_version:
 	$(call in_progress_msg,"building $(VERSION)")
+
+.PHONY: test
+test:
+	@go test -v ./...
