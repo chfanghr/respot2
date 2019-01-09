@@ -1,3 +1,3 @@
 package spotify
 
-var Version = "vb180f85"
+var Version = "va7a06ef"

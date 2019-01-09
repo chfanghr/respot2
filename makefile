@@ -81,4 +81,4 @@ show_version:
 
 .PHONY: test
 test:
-	@go test -v ./...
+	@go test -v ./... >>$(LOGGER)
