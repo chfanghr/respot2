@@ -4,6 +4,11 @@
     <option name="autocompleteBuiltinVars" value="true" />
     <option name="evalEscapesEnabled" value="true" />
     <option name="formatterEnabled" value="true" />
+    <option name="globalVariables">
+      <set>
+        <option value="GOPATH" />
+      </set>
+    </option>
     <option name="useTerminalPlugin" value="true" />
   </component>
 </project>

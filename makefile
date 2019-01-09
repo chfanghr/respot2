@@ -53,13 +53,13 @@ go-mod-download:
 .PHONY: go_build
 go-build:
 	$(call in_progress_msg,"building respot2")
-	@go build -tags $(BUILDTAGS) -v ./... >>$(LOGGER)
+	@go build -v ./... >> $(LOGGER)
 	$(call finish_msg,"building respot2")
 
 .PHONY: build_protocol
 build_protocol:
 	$(call in_progress_msg,"building protocol")
-	@$(MAKE) -C protocol >>$(LOGGER)
+	@cd protocol;./build.sh >>$(LOGGER);cd ..
 	$(call finish_msg,"building protocal")
 
 .PHONY: build
@@ -69,7 +69,7 @@ build: show_version clean build_protocol go-mod-download go-mod-verify go-build
 .PHONY: clean
 clean:
 	$(call in_progress_msg,"cleaning up protocol")
-	@$(MAKE) -C protocol clean >>$(LOGGER)
+	@cd protocol;./build.sh clean;cd .. >>$(LOGGER)
 	$(call finish_msg,"cleaning up protocol")
 	$(call in_progress_msg,"cleaning up build cache")
 	@-go clean ./...  >>$(LOGGER)
