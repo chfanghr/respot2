@@ -17,7 +17,7 @@ const (
 )
 
 type APResolver struct {
-	m      *sync.Mutex
+	lock   sync.Locker
 	client *http.Client
 	list   APList
 }
@@ -53,16 +53,16 @@ func NewAPResolver(dialer proxy.Dialer) *APResolver {
 			}
 		},
 	}}
-	return &APResolver{client: cl, m: new(sync.Mutex)}
+	return &APResolver{client: cl, lock: new(sync.Mutex)}
 }
 
 func (a *APResolver) doJob(job func() error) error {
-	a.m.Lock()
-	defer a.m.Unlock()
+	a.lock.Lock()
+	defer a.lock.Unlock()
 	return job()
 }
 
-func (a APResolver) GetAPList() (res []string, err error) {
+func (a APResolver) GetAPAddrList() (res []string, err error) {
 	if len(a.list.APList) == 0 {
 		err = errors.New("APResolver : empty aplist")
 	}
@@ -70,8 +70,8 @@ func (a APResolver) GetAPList() (res []string, err error) {
 	return
 }
 
-func (a APResolver) GetRandomAP() (string, error) {
-	apLists, err := a.GetAPList()
+func (a APResolver) GetRandomAPAddr() (string, error) {
+	apLists, err := a.GetAPAddrList()
 	if err != nil {
 		return "", err
 	}
