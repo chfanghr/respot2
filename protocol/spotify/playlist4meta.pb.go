@@ -57,7 +57,7 @@ func (x *DownloadFormat_Codec) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (DownloadFormat_Codec) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4meta_5e2ad56a040bc0d8, []int{1, 0}
+	return fileDescriptor_playlist4meta_4aa72b7be495b6dd, []int{1, 0}
 }
 
 type ListChecksum struct {
@@ -72,7 +72,7 @@ func (m *ListChecksum) Reset()         { *m = ListChecksum{} }
 func (m *ListChecksum) String() string { return proto.CompactTextString(m) }
 func (*ListChecksum) ProtoMessage()    {}
 func (*ListChecksum) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4meta_5e2ad56a040bc0d8, []int{0}
+	return fileDescriptor_playlist4meta_4aa72b7be495b6dd, []int{0}
 }
 func (m *ListChecksum) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ListChecksum.Unmarshal(m, b)
@@ -117,7 +117,7 @@ func (m *DownloadFormat) Reset()         { *m = DownloadFormat{} }
 func (m *DownloadFormat) String() string { return proto.CompactTextString(m) }
 func (*DownloadFormat) ProtoMessage()    {}
 func (*DownloadFormat) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4meta_5e2ad56a040bc0d8, []int{1}
+	return fileDescriptor_playlist4meta_4aa72b7be495b6dd, []int{1}
 }
 func (m *DownloadFormat) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_DownloadFormat.Unmarshal(m, b)
@@ -164,7 +164,7 @@ func (m *ListAttributes) Reset()         { *m = ListAttributes{} }
 func (m *ListAttributes) String() string { return proto.CompactTextString(m) }
 func (*ListAttributes) ProtoMessage()    {}
 func (*ListAttributes) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4meta_5e2ad56a040bc0d8, []int{2}
+	return fileDescriptor_playlist4meta_4aa72b7be495b6dd, []int{2}
 }
 func (m *ListAttributes) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ListAttributes.Unmarshal(m, b)
@@ -274,7 +274,7 @@ func (m *ItemAttributes) Reset()         { *m = ItemAttributes{} }
 func (m *ItemAttributes) String() string { return proto.CompactTextString(m) }
 func (*ItemAttributes) ProtoMessage()    {}
 func (*ItemAttributes) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4meta_5e2ad56a040bc0d8, []int{3}
+	return fileDescriptor_playlist4meta_4aa72b7be495b6dd, []int{3}
 }
 func (m *ItemAttributes) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ItemAttributes.Unmarshal(m, b)
@@ -376,7 +376,7 @@ func (m *StringAttribute) Reset()         { *m = StringAttribute{} }
 func (m *StringAttribute) String() string { return proto.CompactTextString(m) }
 func (*StringAttribute) ProtoMessage()    {}
 func (*StringAttribute) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4meta_5e2ad56a040bc0d8, []int{4}
+	return fileDescriptor_playlist4meta_4aa72b7be495b6dd, []int{4}
 }
 func (m *StringAttribute) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_StringAttribute.Unmarshal(m, b)
@@ -421,7 +421,7 @@ func (m *StringAttributes) Reset()         { *m = StringAttributes{} }
 func (m *StringAttributes) String() string { return proto.CompactTextString(m) }
 func (*StringAttributes) ProtoMessage()    {}
 func (*StringAttributes) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4meta_5e2ad56a040bc0d8, []int{5}
+	return fileDescriptor_playlist4meta_4aa72b7be495b6dd, []int{5}
 }
 func (m *StringAttributes) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_StringAttributes.Unmarshal(m, b)
@@ -458,9 +458,9 @@ func init() {
 	proto.RegisterEnum("spotify.DownloadFormat_Codec", DownloadFormat_Codec_name, DownloadFormat_Codec_value)
 }
 
-func init() { proto.RegisterFile("playlist4meta.proto", fileDescriptor_playlist4meta_5e2ad56a040bc0d8) }
+func init() { proto.RegisterFile("playlist4meta.proto", fileDescriptor_playlist4meta_4aa72b7be495b6dd) }
 
-var fileDescriptor_playlist4meta_5e2ad56a040bc0d8 = []byte{
+var fileDescriptor_playlist4meta_4aa72b7be495b6dd = []byte{
 	// 637 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x74, 0x52, 0x6d, 0x6b, 0x13, 0x41,
 	0x10, 0x36, 0xbd, 0xa6, 0x49, 0x26, 0xed, 0xf5, 0xba, 0x16, 0x7b, 0xa2, 0x62, 0x08, 0x8a, 0x01,

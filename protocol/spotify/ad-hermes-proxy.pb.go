@@ -31,7 +31,7 @@ func (m *Rule) Reset()         { *m = Rule{} }
 func (m *Rule) String() string { return proto.CompactTextString(m) }
 func (*Rule) ProtoMessage()    {}
 func (*Rule) Descriptor() ([]byte, []int) {
-	return fileDescriptor_ad_hermes_proxy_5bbea1f2989edc69, []int{0}
+	return fileDescriptor_ad_hermes_proxy_a0fef88b5d66fe45, []int{0}
 }
 func (m *Rule) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Rule.Unmarshal(m, b)
@@ -87,7 +87,7 @@ func (m *AdRequest) Reset()         { *m = AdRequest{} }
 func (m *AdRequest) String() string { return proto.CompactTextString(m) }
 func (*AdRequest) ProtoMessage()    {}
 func (*AdRequest) Descriptor() ([]byte, []int) {
-	return fileDescriptor_ad_hermes_proxy_5bbea1f2989edc69, []int{1}
+	return fileDescriptor_ad_hermes_proxy_a0fef88b5d66fe45, []int{1}
 }
 func (m *AdRequest) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_AdRequest.Unmarshal(m, b)
@@ -153,7 +153,7 @@ func (m *AdQueueResponse) Reset()         { *m = AdQueueResponse{} }
 func (m *AdQueueResponse) String() string { return proto.CompactTextString(m) }
 func (*AdQueueResponse) ProtoMessage()    {}
 func (*AdQueueResponse) Descriptor() ([]byte, []int) {
-	return fileDescriptor_ad_hermes_proxy_5bbea1f2989edc69, []int{2}
+	return fileDescriptor_ad_hermes_proxy_a0fef88b5d66fe45, []int{2}
 }
 func (m *AdQueueResponse) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_AdQueueResponse.Unmarshal(m, b)
@@ -192,7 +192,7 @@ func (m *AdFile) Reset()         { *m = AdFile{} }
 func (m *AdFile) String() string { return proto.CompactTextString(m) }
 func (*AdFile) ProtoMessage()    {}
 func (*AdFile) Descriptor() ([]byte, []int) {
-	return fileDescriptor_ad_hermes_proxy_5bbea1f2989edc69, []int{3}
+	return fileDescriptor_ad_hermes_proxy_a0fef88b5d66fe45, []int{3}
 }
 func (m *AdFile) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_AdFile.Unmarshal(m, b)
@@ -259,7 +259,7 @@ func (m *AdQueueEntry) Reset()         { *m = AdQueueEntry{} }
 func (m *AdQueueEntry) String() string { return proto.CompactTextString(m) }
 func (*AdQueueEntry) ProtoMessage()    {}
 func (*AdQueueEntry) Descriptor() ([]byte, []int) {
-	return fileDescriptor_ad_hermes_proxy_5bbea1f2989edc69, []int{4}
+	return fileDescriptor_ad_hermes_proxy_a0fef88b5d66fe45, []int{4}
 }
 func (m *AdQueueEntry) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_AdQueueEntry.Unmarshal(m, b)
@@ -449,10 +449,10 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("ad-hermes-proxy.proto", fileDescriptor_ad_hermes_proxy_5bbea1f2989edc69)
+	proto.RegisterFile("ad-hermes-proxy.proto", fileDescriptor_ad_hermes_proxy_a0fef88b5d66fe45)
 }
 
-var fileDescriptor_ad_hermes_proxy_5bbea1f2989edc69 = []byte{
+var fileDescriptor_ad_hermes_proxy_a0fef88b5d66fe45 = []byte{
 	// 580 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x5c, 0x53, 0x5d, 0x6f, 0xd3, 0x30,
 	0x14, 0x55, 0xda, 0x74, 0x6d, 0x6e, 0xbf, 0x86, 0xd9, 0x86, 0x99, 0x04, 0x74, 0x45, 0x88, 0xf2,

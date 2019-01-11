@@ -35,7 +35,7 @@ func (m *DecorationData) Reset()         { *m = DecorationData{} }
 func (m *DecorationData) String() string { return proto.CompactTextString(m) }
 func (*DecorationData) ProtoMessage()    {}
 func (*DecorationData) Descriptor() ([]byte, []int) {
-	return fileDescriptor_social_5c7a90e45b39fbd4, []int{0}
+	return fileDescriptor_social_4bc983cff226ee1e, []int{0}
 }
 func (m *DecorationData) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_DecorationData.Unmarshal(m, b)
@@ -108,9 +108,9 @@ func init() {
 	proto.RegisterType((*DecorationData)(nil), "spotify.DecorationData")
 }
 
-func init() { proto.RegisterFile("social.proto", fileDescriptor_social_5c7a90e45b39fbd4) }
+func init() { proto.RegisterFile("social.proto", fileDescriptor_social_4bc983cff226ee1e) }
 
-var fileDescriptor_social_5c7a90e45b39fbd4 = []byte{
+var fileDescriptor_social_4bc983cff226ee1e = []byte{
 	// 194 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x44, 0x8d, 0xbd, 0x4a, 0xc4, 0x40,
 	0x14, 0x46, 0x89, 0xa2, 0x49, 0xae, 0x51, 0x61, 0xaa, 0xa0, 0x08, 0x6a, 0x21, 0x56, 0x3e, 0x45,

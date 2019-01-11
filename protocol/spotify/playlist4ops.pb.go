@@ -78,7 +78,7 @@ func (x *ItemAttributesPartialState_ItemAttributeKind) UnmarshalJSON(data []byte
 	return nil
 }
 func (ItemAttributesPartialState_ItemAttributeKind) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4ops_f902e6f4b00ac618, []int{3, 0}
+	return fileDescriptor_playlist4ops_8dff920ca25138fd, []int{3, 0}
 }
 
 type ListAttributesPartialState_ListAttributeKind int32
@@ -132,7 +132,7 @@ func (x *ListAttributesPartialState_ListAttributeKind) UnmarshalJSON(data []byte
 	return nil
 }
 func (ListAttributesPartialState_ListAttributeKind) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4ops_f902e6f4b00ac618, []int{4, 0}
+	return fileDescriptor_playlist4ops_8dff920ca25138fd, []int{4, 0}
 }
 
 type Op_Kind int32
@@ -180,7 +180,7 @@ func (x *Op_Kind) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (Op_Kind) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4ops_f902e6f4b00ac618, []int{7, 0}
+	return fileDescriptor_playlist4ops_8dff920ca25138fd, []int{7, 0}
 }
 
 type Add struct {
@@ -198,7 +198,7 @@ func (m *Add) Reset()         { *m = Add{} }
 func (m *Add) String() string { return proto.CompactTextString(m) }
 func (*Add) ProtoMessage()    {}
 func (*Add) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4ops_f902e6f4b00ac618, []int{0}
+	return fileDescriptor_playlist4ops_8dff920ca25138fd, []int{0}
 }
 func (m *Add) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Add.Unmarshal(m, b)
@@ -270,7 +270,7 @@ func (m *Rem) Reset()         { *m = Rem{} }
 func (m *Rem) String() string { return proto.CompactTextString(m) }
 func (*Rem) ProtoMessage()    {}
 func (*Rem) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4ops_f902e6f4b00ac618, []int{1}
+	return fileDescriptor_playlist4ops_8dff920ca25138fd, []int{1}
 }
 func (m *Rem) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Rem.Unmarshal(m, b)
@@ -355,7 +355,7 @@ func (m *Mov) Reset()         { *m = Mov{} }
 func (m *Mov) String() string { return proto.CompactTextString(m) }
 func (*Mov) ProtoMessage()    {}
 func (*Mov) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4ops_f902e6f4b00ac618, []int{2}
+	return fileDescriptor_playlist4ops_8dff920ca25138fd, []int{2}
 }
 func (m *Mov) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Mov.Unmarshal(m, b)
@@ -429,7 +429,7 @@ func (m *ItemAttributesPartialState) Reset()         { *m = ItemAttributesPartia
 func (m *ItemAttributesPartialState) String() string { return proto.CompactTextString(m) }
 func (*ItemAttributesPartialState) ProtoMessage()    {}
 func (*ItemAttributesPartialState) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4ops_f902e6f4b00ac618, []int{3}
+	return fileDescriptor_playlist4ops_8dff920ca25138fd, []int{3}
 }
 func (m *ItemAttributesPartialState) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ItemAttributesPartialState.Unmarshal(m, b)
@@ -475,7 +475,7 @@ func (m *ListAttributesPartialState) Reset()         { *m = ListAttributesPartia
 func (m *ListAttributesPartialState) String() string { return proto.CompactTextString(m) }
 func (*ListAttributesPartialState) ProtoMessage()    {}
 func (*ListAttributesPartialState) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4ops_f902e6f4b00ac618, []int{4}
+	return fileDescriptor_playlist4ops_8dff920ca25138fd, []int{4}
 }
 func (m *ListAttributesPartialState) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ListAttributesPartialState.Unmarshal(m, b)
@@ -524,7 +524,7 @@ func (m *UpdateItemAttributes) Reset()         { *m = UpdateItemAttributes{} }
 func (m *UpdateItemAttributes) String() string { return proto.CompactTextString(m) }
 func (*UpdateItemAttributes) ProtoMessage()    {}
 func (*UpdateItemAttributes) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4ops_f902e6f4b00ac618, []int{5}
+	return fileDescriptor_playlist4ops_8dff920ca25138fd, []int{5}
 }
 func (m *UpdateItemAttributes) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_UpdateItemAttributes.Unmarshal(m, b)
@@ -593,7 +593,7 @@ func (m *UpdateListAttributes) Reset()         { *m = UpdateListAttributes{} }
 func (m *UpdateListAttributes) String() string { return proto.CompactTextString(m) }
 func (*UpdateListAttributes) ProtoMessage()    {}
 func (*UpdateListAttributes) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4ops_f902e6f4b00ac618, []int{6}
+	return fileDescriptor_playlist4ops_8dff920ca25138fd, []int{6}
 }
 func (m *UpdateListAttributes) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_UpdateListAttributes.Unmarshal(m, b)
@@ -657,7 +657,7 @@ func (m *Op) Reset()         { *m = Op{} }
 func (m *Op) String() string { return proto.CompactTextString(m) }
 func (*Op) ProtoMessage()    {}
 func (*Op) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4ops_f902e6f4b00ac618, []int{7}
+	return fileDescriptor_playlist4ops_8dff920ca25138fd, []int{7}
 }
 func (m *Op) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Op.Unmarshal(m, b)
@@ -730,7 +730,7 @@ func (m *OpList) Reset()         { *m = OpList{} }
 func (m *OpList) String() string { return proto.CompactTextString(m) }
 func (*OpList) ProtoMessage()    {}
 func (*OpList) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4ops_f902e6f4b00ac618, []int{8}
+	return fileDescriptor_playlist4ops_8dff920ca25138fd, []int{8}
 }
 func (m *OpList) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_OpList.Unmarshal(m, b)
@@ -772,9 +772,9 @@ func init() {
 	proto.RegisterEnum("spotify.Op_Kind", Op_Kind_name, Op_Kind_value)
 }
 
-func init() { proto.RegisterFile("playlist4ops.proto", fileDescriptor_playlist4ops_f902e6f4b00ac618) }
+func init() { proto.RegisterFile("playlist4ops.proto", fileDescriptor_playlist4ops_8dff920ca25138fd) }
 
-var fileDescriptor_playlist4ops_f902e6f4b00ac618 = []byte{
+var fileDescriptor_playlist4ops_8dff920ca25138fd = []byte{
 	// 952 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0xd4, 0x56, 0xcd, 0x72, 0xe3, 0x44,
 	0x10, 0x46, 0x92, 0x7f, 0x92, 0xf6, 0xda, 0x4c, 0x66, 0x1d, 0x47, 0xb8, 0xc8, 0x56, 0xf0, 0x52,

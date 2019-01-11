@@ -33,7 +33,7 @@ func (m *RadioRequest) Reset()         { *m = RadioRequest{} }
 func (m *RadioRequest) String() string { return proto.CompactTextString(m) }
 func (*RadioRequest) ProtoMessage()    {}
 func (*RadioRequest) Descriptor() ([]byte, []int) {
-	return fileDescriptor_radio_a4ede9705032a2c4, []int{0}
+	return fileDescriptor_radio_c596bb1c1f75be47, []int{0}
 }
 func (m *RadioRequest) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_RadioRequest.Unmarshal(m, b)
@@ -99,7 +99,7 @@ func (m *MultiSeedRequest) Reset()         { *m = MultiSeedRequest{} }
 func (m *MultiSeedRequest) String() string { return proto.CompactTextString(m) }
 func (*MultiSeedRequest) ProtoMessage()    {}
 func (*MultiSeedRequest) Descriptor() ([]byte, []int) {
-	return fileDescriptor_radio_a4ede9705032a2c4, []int{1}
+	return fileDescriptor_radio_c596bb1c1f75be47, []int{1}
 }
 func (m *MultiSeedRequest) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_MultiSeedRequest.Unmarshal(m, b)
@@ -139,7 +139,7 @@ func (m *Feedback) Reset()         { *m = Feedback{} }
 func (m *Feedback) String() string { return proto.CompactTextString(m) }
 func (*Feedback) ProtoMessage()    {}
 func (*Feedback) Descriptor() ([]byte, []int) {
-	return fileDescriptor_radio_a4ede9705032a2c4, []int{2}
+	return fileDescriptor_radio_c596bb1c1f75be47, []int{2}
 }
 func (m *Feedback) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Feedback.Unmarshal(m, b)
@@ -195,7 +195,7 @@ func (m *Tracks) Reset()         { *m = Tracks{} }
 func (m *Tracks) String() string { return proto.CompactTextString(m) }
 func (*Tracks) ProtoMessage()    {}
 func (*Tracks) Descriptor() ([]byte, []int) {
-	return fileDescriptor_radio_a4ede9705032a2c4, []int{3}
+	return fileDescriptor_radio_c596bb1c1f75be47, []int{3}
 }
 func (m *Tracks) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Tracks.Unmarshal(m, b)
@@ -270,7 +270,7 @@ func (m *Station) Reset()         { *m = Station{} }
 func (m *Station) String() string { return proto.CompactTextString(m) }
 func (*Station) ProtoMessage()    {}
 func (*Station) Descriptor() ([]byte, []int) {
-	return fileDescriptor_radio_a4ede9705032a2c4, []int{4}
+	return fileDescriptor_radio_c596bb1c1f75be47, []int{4}
 }
 func (m *Station) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Station.Unmarshal(m, b)
@@ -371,7 +371,7 @@ func (m *Rules) Reset()         { *m = Rules{} }
 func (m *Rules) String() string { return proto.CompactTextString(m) }
 func (*Rules) ProtoMessage()    {}
 func (*Rules) Descriptor() ([]byte, []int) {
-	return fileDescriptor_radio_a4ede9705032a2c4, []int{5}
+	return fileDescriptor_radio_c596bb1c1f75be47, []int{5}
 }
 func (m *Rules) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Rules.Unmarshal(m, b)
@@ -410,7 +410,7 @@ func (m *StationResponse) Reset()         { *m = StationResponse{} }
 func (m *StationResponse) String() string { return proto.CompactTextString(m) }
 func (*StationResponse) ProtoMessage()    {}
 func (*StationResponse) Descriptor() ([]byte, []int) {
-	return fileDescriptor_radio_a4ede9705032a2c4, []int{6}
+	return fileDescriptor_radio_c596bb1c1f75be47, []int{6}
 }
 func (m *StationResponse) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_StationResponse.Unmarshal(m, b)
@@ -455,7 +455,7 @@ func (m *StationList) Reset()         { *m = StationList{} }
 func (m *StationList) String() string { return proto.CompactTextString(m) }
 func (*StationList) ProtoMessage()    {}
 func (*StationList) Descriptor() ([]byte, []int) {
-	return fileDescriptor_radio_a4ede9705032a2c4, []int{7}
+	return fileDescriptor_radio_c596bb1c1f75be47, []int{7}
 }
 func (m *StationList) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_StationList.Unmarshal(m, b)
@@ -493,7 +493,7 @@ func (m *LikedPlaylist) Reset()         { *m = LikedPlaylist{} }
 func (m *LikedPlaylist) String() string { return proto.CompactTextString(m) }
 func (*LikedPlaylist) ProtoMessage()    {}
 func (*LikedPlaylist) Descriptor() ([]byte, []int) {
-	return fileDescriptor_radio_a4ede9705032a2c4, []int{8}
+	return fileDescriptor_radio_c596bb1c1f75be47, []int{8}
 }
 func (m *LikedPlaylist) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_LikedPlaylist.Unmarshal(m, b)
@@ -532,9 +532,9 @@ func init() {
 	proto.RegisterType((*LikedPlaylist)(nil), "spotify.LikedPlaylist")
 }
 
-func init() { proto.RegisterFile("radio.proto", fileDescriptor_radio_a4ede9705032a2c4) }
+func init() { proto.RegisterFile("radio.proto", fileDescriptor_radio_c596bb1c1f75be47) }
 
-var fileDescriptor_radio_a4ede9705032a2c4 = []byte{
+var fileDescriptor_radio_c596bb1c1f75be47 = []byte{
 	// 478 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x84, 0x52, 0x4d, 0x8f, 0xd3, 0x30,
 	0x10, 0x55, 0xd2, 0xa6, 0x4d, 0x26, 0x7c, 0x14, 0x0b, 0x81, 0x85, 0x10, 0x0a, 0x39, 0xa0, 0x08,

@@ -1,3 +1,5 @@
+syntax = "proto2";
+
 package spotify;
 
 import "metadata.proto";

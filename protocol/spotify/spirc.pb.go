@@ -108,7 +108,7 @@ func (x *MessageType) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (MessageType) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_spirc_468030e529254f83, []int{0}
+	return fileDescriptor_spirc_714900fe5a81c3ed, []int{0}
 }
 
 type CapabilityType int32
@@ -180,7 +180,7 @@ func (x *CapabilityType) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (CapabilityType) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_spirc_468030e529254f83, []int{1}
+	return fileDescriptor_spirc_714900fe5a81c3ed, []int{1}
 }
 
 type PlayStatus int32
@@ -222,7 +222,7 @@ func (x *PlayStatus) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (PlayStatus) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_spirc_468030e529254f83, []int{2}
+	return fileDescriptor_spirc_714900fe5a81c3ed, []int{2}
 }
 
 type Frame struct {
@@ -250,7 +250,7 @@ func (m *Frame) Reset()         { *m = Frame{} }
 func (m *Frame) String() string { return proto.CompactTextString(m) }
 func (*Frame) ProtoMessage()    {}
 func (*Frame) Descriptor() ([]byte, []int) {
-	return fileDescriptor_spirc_468030e529254f83, []int{0}
+	return fileDescriptor_spirc_714900fe5a81c3ed, []int{0}
 }
 func (m *Frame) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Frame.Unmarshal(m, b)
@@ -396,7 +396,7 @@ func (m *DeviceState) Reset()         { *m = DeviceState{} }
 func (m *DeviceState) String() string { return proto.CompactTextString(m) }
 func (*DeviceState) ProtoMessage()    {}
 func (*DeviceState) Descriptor() ([]byte, []int) {
-	return fileDescriptor_spirc_468030e529254f83, []int{1}
+	return fileDescriptor_spirc_714900fe5a81c3ed, []int{1}
 }
 func (m *DeviceState) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_DeviceState.Unmarshal(m, b)
@@ -506,7 +506,7 @@ func (m *Capability) Reset()         { *m = Capability{} }
 func (m *Capability) String() string { return proto.CompactTextString(m) }
 func (*Capability) ProtoMessage()    {}
 func (*Capability) Descriptor() ([]byte, []int) {
-	return fileDescriptor_spirc_468030e529254f83, []int{2}
+	return fileDescriptor_spirc_714900fe5a81c3ed, []int{2}
 }
 func (m *Capability) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Capability.Unmarshal(m, b)
@@ -558,7 +558,7 @@ func (m *Goodbye) Reset()         { *m = Goodbye{} }
 func (m *Goodbye) String() string { return proto.CompactTextString(m) }
 func (*Goodbye) ProtoMessage()    {}
 func (*Goodbye) Descriptor() ([]byte, []int) {
-	return fileDescriptor_spirc_468030e529254f83, []int{3}
+	return fileDescriptor_spirc_714900fe5a81c3ed, []int{3}
 }
 func (m *Goodbye) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Goodbye.Unmarshal(m, b)
@@ -610,7 +610,7 @@ func (m *State) Reset()         { *m = State{} }
 func (m *State) String() string { return proto.CompactTextString(m) }
 func (*State) ProtoMessage()    {}
 func (*State) Descriptor() ([]byte, []int) {
-	return fileDescriptor_spirc_468030e529254f83, []int{4}
+	return fileDescriptor_spirc_714900fe5a81c3ed, []int{4}
 }
 func (m *State) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_State.Unmarshal(m, b)
@@ -749,7 +749,7 @@ func (m *TrackRef) Reset()         { *m = TrackRef{} }
 func (m *TrackRef) String() string { return proto.CompactTextString(m) }
 func (*TrackRef) ProtoMessage()    {}
 func (*TrackRef) Descriptor() ([]byte, []int) {
-	return fileDescriptor_spirc_468030e529254f83, []int{5}
+	return fileDescriptor_spirc_714900fe5a81c3ed, []int{5}
 }
 func (m *TrackRef) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_TrackRef.Unmarshal(m, b)
@@ -816,7 +816,7 @@ func (m *Ad) Reset()         { *m = Ad{} }
 func (m *Ad) String() string { return proto.CompactTextString(m) }
 func (*Ad) ProtoMessage()    {}
 func (*Ad) Descriptor() ([]byte, []int) {
-	return fileDescriptor_spirc_468030e529254f83, []int{6}
+	return fileDescriptor_spirc_714900fe5a81c3ed, []int{6}
 }
 func (m *Ad) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Ad.Unmarshal(m, b)
@@ -911,7 +911,7 @@ func (m *Metadata) Reset()         { *m = Metadata{} }
 func (m *Metadata) String() string { return proto.CompactTextString(m) }
 func (*Metadata) ProtoMessage()    {}
 func (*Metadata) Descriptor() ([]byte, []int) {
-	return fileDescriptor_spirc_468030e529254f83, []int{7}
+	return fileDescriptor_spirc_714900fe5a81c3ed, []int{7}
 }
 func (m *Metadata) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Metadata.Unmarshal(m, b)
@@ -959,9 +959,9 @@ func init() {
 	proto.RegisterEnum("spotify.PlayStatus", PlayStatus_name, PlayStatus_value)
 }
 
-func init() { proto.RegisterFile("spirc.proto", fileDescriptor_spirc_468030e529254f83) }
+func init() { proto.RegisterFile("spirc.proto", fileDescriptor_spirc_714900fe5a81c3ed) }
 
-var fileDescriptor_spirc_468030e529254f83 = []byte{
+var fileDescriptor_spirc_714900fe5a81c3ed = []byte{
 	// 1417 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x84, 0x56, 0xcd, 0x72, 0xdb, 0x36,
 	0x10, 0xae, 0xfe, 0x2c, 0x6a, 0x25, 0xd9, 0x30, 0xfc, 0x47, 0xdb, 0x49, 0xa3, 0x28, 0x69, 0xaa,

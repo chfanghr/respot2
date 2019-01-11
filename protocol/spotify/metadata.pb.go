@@ -57,7 +57,7 @@ func (x *Album_Type) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (Album_Type) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_metadata_82f448765a5b186f, []int{5, 0}
+	return fileDescriptor_metadata_086153a7d99ae2ba, []int{5, 0}
 }
 
 type Image_Size int32
@@ -99,7 +99,7 @@ func (x *Image_Size) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (Image_Size) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_metadata_82f448765a5b186f, []int{7, 0}
+	return fileDescriptor_metadata_086153a7d99ae2ba, []int{7, 0}
 }
 
 type Copyright_Type int32
@@ -135,7 +135,7 @@ func (x *Copyright_Type) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (Copyright_Type) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_metadata_82f448765a5b186f, []int{11, 0}
+	return fileDescriptor_metadata_086153a7d99ae2ba, []int{11, 0}
 }
 
 type Restriction_Type int32
@@ -168,7 +168,7 @@ func (x *Restriction_Type) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (Restriction_Type) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_metadata_82f448765a5b186f, []int{12, 0}
+	return fileDescriptor_metadata_086153a7d99ae2ba, []int{12, 0}
 }
 
 type AudioFile_Format int32
@@ -240,7 +240,7 @@ func (x *AudioFile_Format) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (AudioFile_Format) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_metadata_82f448765a5b186f, []int{15, 0}
+	return fileDescriptor_metadata_086153a7d99ae2ba, []int{15, 0}
 }
 
 type TopTracks struct {
@@ -255,7 +255,7 @@ func (m *TopTracks) Reset()         { *m = TopTracks{} }
 func (m *TopTracks) String() string { return proto.CompactTextString(m) }
 func (*TopTracks) ProtoMessage()    {}
 func (*TopTracks) Descriptor() ([]byte, []int) {
-	return fileDescriptor_metadata_82f448765a5b186f, []int{0}
+	return fileDescriptor_metadata_086153a7d99ae2ba, []int{0}
 }
 func (m *TopTracks) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_TopTracks.Unmarshal(m, b)
@@ -302,7 +302,7 @@ func (m *ActivityPeriod) Reset()         { *m = ActivityPeriod{} }
 func (m *ActivityPeriod) String() string { return proto.CompactTextString(m) }
 func (*ActivityPeriod) ProtoMessage()    {}
 func (*ActivityPeriod) Descriptor() ([]byte, []int) {
-	return fileDescriptor_metadata_82f448765a5b186f, []int{1}
+	return fileDescriptor_metadata_086153a7d99ae2ba, []int{1}
 }
 func (m *ActivityPeriod) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ActivityPeriod.Unmarshal(m, b)
@@ -370,7 +370,7 @@ func (m *Artist) Reset()         { *m = Artist{} }
 func (m *Artist) String() string { return proto.CompactTextString(m) }
 func (*Artist) ProtoMessage()    {}
 func (*Artist) Descriptor() ([]byte, []int) {
-	return fileDescriptor_metadata_82f448765a5b186f, []int{2}
+	return fileDescriptor_metadata_086153a7d99ae2ba, []int{2}
 }
 func (m *Artist) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Artist.Unmarshal(m, b)
@@ -520,7 +520,7 @@ func (m *AlbumGroup) Reset()         { *m = AlbumGroup{} }
 func (m *AlbumGroup) String() string { return proto.CompactTextString(m) }
 func (*AlbumGroup) ProtoMessage()    {}
 func (*AlbumGroup) Descriptor() ([]byte, []int) {
-	return fileDescriptor_metadata_82f448765a5b186f, []int{3}
+	return fileDescriptor_metadata_086153a7d99ae2ba, []int{3}
 }
 func (m *AlbumGroup) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_AlbumGroup.Unmarshal(m, b)
@@ -560,7 +560,7 @@ func (m *Date) Reset()         { *m = Date{} }
 func (m *Date) String() string { return proto.CompactTextString(m) }
 func (*Date) ProtoMessage()    {}
 func (*Date) Descriptor() ([]byte, []int) {
-	return fileDescriptor_metadata_82f448765a5b186f, []int{4}
+	return fileDescriptor_metadata_086153a7d99ae2ba, []int{4}
 }
 func (m *Date) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Date.Unmarshal(m, b)
@@ -628,7 +628,7 @@ func (m *Album) Reset()         { *m = Album{} }
 func (m *Album) String() string { return proto.CompactTextString(m) }
 func (*Album) ProtoMessage()    {}
 func (*Album) Descriptor() ([]byte, []int) {
-	return fileDescriptor_metadata_82f448765a5b186f, []int{5}
+	return fileDescriptor_metadata_086153a7d99ae2ba, []int{5}
 }
 func (m *Album) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Album.Unmarshal(m, b)
@@ -792,7 +792,7 @@ func (m *Track) Reset()         { *m = Track{} }
 func (m *Track) String() string { return proto.CompactTextString(m) }
 func (*Track) ProtoMessage()    {}
 func (*Track) Descriptor() ([]byte, []int) {
-	return fileDescriptor_metadata_82f448765a5b186f, []int{6}
+	return fileDescriptor_metadata_086153a7d99ae2ba, []int{6}
 }
 func (m *Track) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Track.Unmarshal(m, b)
@@ -931,7 +931,7 @@ func (m *Image) Reset()         { *m = Image{} }
 func (m *Image) String() string { return proto.CompactTextString(m) }
 func (*Image) ProtoMessage()    {}
 func (*Image) Descriptor() ([]byte, []int) {
-	return fileDescriptor_metadata_82f448765a5b186f, []int{7}
+	return fileDescriptor_metadata_086153a7d99ae2ba, []int{7}
 }
 func (m *Image) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Image.Unmarshal(m, b)
@@ -990,7 +990,7 @@ func (m *ImageGroup) Reset()         { *m = ImageGroup{} }
 func (m *ImageGroup) String() string { return proto.CompactTextString(m) }
 func (*ImageGroup) ProtoMessage()    {}
 func (*ImageGroup) Descriptor() ([]byte, []int) {
-	return fileDescriptor_metadata_82f448765a5b186f, []int{8}
+	return fileDescriptor_metadata_086153a7d99ae2ba, []int{8}
 }
 func (m *ImageGroup) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ImageGroup.Unmarshal(m, b)
@@ -1030,7 +1030,7 @@ func (m *Biography) Reset()         { *m = Biography{} }
 func (m *Biography) String() string { return proto.CompactTextString(m) }
 func (*Biography) ProtoMessage()    {}
 func (*Biography) Descriptor() ([]byte, []int) {
-	return fileDescriptor_metadata_82f448765a5b186f, []int{9}
+	return fileDescriptor_metadata_086153a7d99ae2ba, []int{9}
 }
 func (m *Biography) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Biography.Unmarshal(m, b)
@@ -1084,7 +1084,7 @@ func (m *Disc) Reset()         { *m = Disc{} }
 func (m *Disc) String() string { return proto.CompactTextString(m) }
 func (*Disc) ProtoMessage()    {}
 func (*Disc) Descriptor() ([]byte, []int) {
-	return fileDescriptor_metadata_82f448765a5b186f, []int{10}
+	return fileDescriptor_metadata_086153a7d99ae2ba, []int{10}
 }
 func (m *Disc) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Disc.Unmarshal(m, b)
@@ -1137,7 +1137,7 @@ func (m *Copyright) Reset()         { *m = Copyright{} }
 func (m *Copyright) String() string { return proto.CompactTextString(m) }
 func (*Copyright) ProtoMessage()    {}
 func (*Copyright) Descriptor() ([]byte, []int) {
-	return fileDescriptor_metadata_82f448765a5b186f, []int{11}
+	return fileDescriptor_metadata_086153a7d99ae2ba, []int{11}
 }
 func (m *Copyright) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Copyright.Unmarshal(m, b)
@@ -1185,7 +1185,7 @@ func (m *Restriction) Reset()         { *m = Restriction{} }
 func (m *Restriction) String() string { return proto.CompactTextString(m) }
 func (*Restriction) ProtoMessage()    {}
 func (*Restriction) Descriptor() ([]byte, []int) {
-	return fileDescriptor_metadata_82f448765a5b186f, []int{12}
+	return fileDescriptor_metadata_086153a7d99ae2ba, []int{12}
 }
 func (m *Restriction) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Restriction.Unmarshal(m, b)
@@ -1246,7 +1246,7 @@ func (m *SalePeriod) Reset()         { *m = SalePeriod{} }
 func (m *SalePeriod) String() string { return proto.CompactTextString(m) }
 func (*SalePeriod) ProtoMessage()    {}
 func (*SalePeriod) Descriptor() ([]byte, []int) {
-	return fileDescriptor_metadata_82f448765a5b186f, []int{13}
+	return fileDescriptor_metadata_086153a7d99ae2ba, []int{13}
 }
 func (m *SalePeriod) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_SalePeriod.Unmarshal(m, b)
@@ -1299,7 +1299,7 @@ func (m *ExternalId) Reset()         { *m = ExternalId{} }
 func (m *ExternalId) String() string { return proto.CompactTextString(m) }
 func (*ExternalId) ProtoMessage()    {}
 func (*ExternalId) Descriptor() ([]byte, []int) {
-	return fileDescriptor_metadata_82f448765a5b186f, []int{14}
+	return fileDescriptor_metadata_086153a7d99ae2ba, []int{14}
 }
 func (m *ExternalId) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ExternalId.Unmarshal(m, b)
@@ -1345,7 +1345,7 @@ func (m *AudioFile) Reset()         { *m = AudioFile{} }
 func (m *AudioFile) String() string { return proto.CompactTextString(m) }
 func (*AudioFile) ProtoMessage()    {}
 func (*AudioFile) Descriptor() ([]byte, []int) {
-	return fileDescriptor_metadata_82f448765a5b186f, []int{15}
+	return fileDescriptor_metadata_086153a7d99ae2ba, []int{15}
 }
 func (m *AudioFile) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_AudioFile.Unmarshal(m, b)
@@ -1403,9 +1403,9 @@ func init() {
 	proto.RegisterEnum("spotify.AudioFile_Format", AudioFile_Format_name, AudioFile_Format_value)
 }
 
-func init() { proto.RegisterFile("metadata.proto", fileDescriptor_metadata_82f448765a5b186f) }
+func init() { proto.RegisterFile("metadata.proto", fileDescriptor_metadata_086153a7d99ae2ba) }
 
-var fileDescriptor_metadata_82f448765a5b186f = []byte{
+var fileDescriptor_metadata_086153a7d99ae2ba = []byte{
 	// 1430 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x9c, 0x57, 0x6d, 0x6f, 0xdb, 0x36,
 	0x10, 0x8e, 0x6c, 0x59, 0xb6, 0xce, 0x89, 0xa3, 0xb0, 0x59, 0xa3, 0x16, 0xd8, 0x9a, 0xa9, 0xdd,

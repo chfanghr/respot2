@@ -30,7 +30,7 @@ func (m *EventReply) Reset()         { *m = EventReply{} }
 func (m *EventReply) String() string { return proto.CompactTextString(m) }
 func (*EventReply) ProtoMessage()    {}
 func (*EventReply) Descriptor() ([]byte, []int) {
-	return fileDescriptor_facebook_publish_cf0009184a9a4cf7, []int{0}
+	return fileDescriptor_facebook_publish_d48db8902a93da5f, []int{0}
 }
 func (m *EventReply) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_EventReply.Unmarshal(m, b)
@@ -76,7 +76,7 @@ func (m *RetryInfo) Reset()         { *m = RetryInfo{} }
 func (m *RetryInfo) String() string { return proto.CompactTextString(m) }
 func (*RetryInfo) ProtoMessage()    {}
 func (*RetryInfo) Descriptor() ([]byte, []int) {
-	return fileDescriptor_facebook_publish_cf0009184a9a4cf7, []int{1}
+	return fileDescriptor_facebook_publish_d48db8902a93da5f, []int{1}
 }
 func (m *RetryInfo) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_RetryInfo.Unmarshal(m, b)
@@ -122,7 +122,7 @@ func (m *Id) Reset()         { *m = Id{} }
 func (m *Id) String() string { return proto.CompactTextString(m) }
 func (*Id) ProtoMessage()    {}
 func (*Id) Descriptor() ([]byte, []int) {
-	return fileDescriptor_facebook_publish_cf0009184a9a4cf7, []int{2}
+	return fileDescriptor_facebook_publish_d48db8902a93da5f, []int{2}
 }
 func (m *Id) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Id.Unmarshal(m, b)
@@ -169,7 +169,7 @@ func (m *Start) Reset()         { *m = Start{} }
 func (m *Start) String() string { return proto.CompactTextString(m) }
 func (*Start) ProtoMessage()    {}
 func (*Start) Descriptor() ([]byte, []int) {
-	return fileDescriptor_facebook_publish_cf0009184a9a4cf7, []int{3}
+	return fileDescriptor_facebook_publish_d48db8902a93da5f, []int{3}
 }
 func (m *Start) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Start.Unmarshal(m, b)
@@ -221,7 +221,7 @@ func (m *Seek) Reset()         { *m = Seek{} }
 func (m *Seek) String() string { return proto.CompactTextString(m) }
 func (*Seek) ProtoMessage()    {}
 func (*Seek) Descriptor() ([]byte, []int) {
-	return fileDescriptor_facebook_publish_cf0009184a9a4cf7, []int{4}
+	return fileDescriptor_facebook_publish_d48db8902a93da5f, []int{4}
 }
 func (m *Seek) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Seek.Unmarshal(m, b)
@@ -260,7 +260,7 @@ func (m *Pause) Reset()         { *m = Pause{} }
 func (m *Pause) String() string { return proto.CompactTextString(m) }
 func (*Pause) ProtoMessage()    {}
 func (*Pause) Descriptor() ([]byte, []int) {
-	return fileDescriptor_facebook_publish_cf0009184a9a4cf7, []int{5}
+	return fileDescriptor_facebook_publish_d48db8902a93da5f, []int{5}
 }
 func (m *Pause) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Pause.Unmarshal(m, b)
@@ -306,7 +306,7 @@ func (m *Resume) Reset()         { *m = Resume{} }
 func (m *Resume) String() string { return proto.CompactTextString(m) }
 func (*Resume) ProtoMessage()    {}
 func (*Resume) Descriptor() ([]byte, []int) {
-	return fileDescriptor_facebook_publish_cf0009184a9a4cf7, []int{6}
+	return fileDescriptor_facebook_publish_d48db8902a93da5f, []int{6}
 }
 func (m *Resume) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Resume.Unmarshal(m, b)
@@ -352,7 +352,7 @@ func (m *End) Reset()         { *m = End{} }
 func (m *End) String() string { return proto.CompactTextString(m) }
 func (*End) ProtoMessage()    {}
 func (*End) Descriptor() ([]byte, []int) {
-	return fileDescriptor_facebook_publish_cf0009184a9a4cf7, []int{7}
+	return fileDescriptor_facebook_publish_d48db8902a93da5f, []int{7}
 }
 func (m *End) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_End.Unmarshal(m, b)
@@ -402,7 +402,7 @@ func (m *Event) Reset()         { *m = Event{} }
 func (m *Event) String() string { return proto.CompactTextString(m) }
 func (*Event) ProtoMessage()    {}
 func (*Event) Descriptor() ([]byte, []int) {
-	return fileDescriptor_facebook_publish_cf0009184a9a4cf7, []int{8}
+	return fileDescriptor_facebook_publish_d48db8902a93da5f, []int{8}
 }
 func (m *Event) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Event.Unmarshal(m, b)
@@ -477,10 +477,10 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("facebook-publish.proto", fileDescriptor_facebook_publish_cf0009184a9a4cf7)
+	proto.RegisterFile("facebook-publish.proto", fileDescriptor_facebook_publish_d48db8902a93da5f)
 }
 
-var fileDescriptor_facebook_publish_cf0009184a9a4cf7 = []byte{
+var fileDescriptor_facebook_publish_d48db8902a93da5f = []byte{
 	// 410 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0xac, 0x92, 0x41, 0x6f, 0xd4, 0x30,
 	0x10, 0x85, 0x95, 0x64, 0xbd, 0xed, 0x4e, 0x68, 0x41, 0x3e, 0x54, 0x41, 0x15, 0xd0, 0x46, 0x20,

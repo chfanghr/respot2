@@ -114,7 +114,7 @@ func (x *RequestHeader_Platform) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (RequestHeader_Platform) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_appstore_169e528b527f53d4, []int{3, 0}
+	return fileDescriptor_appstore_8a8eb08e84bc6215, []int{3, 0}
 }
 
 type RequestHeader_DeviceClass int32
@@ -159,7 +159,7 @@ func (x *RequestHeader_DeviceClass) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (RequestHeader_DeviceClass) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_appstore_169e528b527f53d4, []int{3, 1}
+	return fileDescriptor_appstore_8a8eb08e84bc6215, []int{3, 1}
 }
 
 type AppItem_Requirement int32
@@ -198,7 +198,7 @@ func (x *AppItem_Requirement) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (AppItem_Requirement) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_appstore_169e528b527f53d4, []int{4, 0}
+	return fileDescriptor_appstore_8a8eb08e84bc6215, []int{4, 0}
 }
 
 type AppItem_Type int32
@@ -237,7 +237,7 @@ func (x *AppItem_Type) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (AppItem_Type) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_appstore_169e528b527f53d4, []int{4, 1}
+	return fileDescriptor_appstore_8a8eb08e84bc6215, []int{4, 1}
 }
 
 type AppInfo struct {
@@ -252,7 +252,7 @@ func (m *AppInfo) Reset()         { *m = AppInfo{} }
 func (m *AppInfo) String() string { return proto.CompactTextString(m) }
 func (*AppInfo) ProtoMessage()    {}
 func (*AppInfo) Descriptor() ([]byte, []int) {
-	return fileDescriptor_appstore_169e528b527f53d4, []int{0}
+	return fileDescriptor_appstore_8a8eb08e84bc6215, []int{0}
 }
 func (m *AppInfo) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_AppInfo.Unmarshal(m, b)
@@ -297,7 +297,7 @@ func (m *AppInfoList) Reset()         { *m = AppInfoList{} }
 func (m *AppInfoList) String() string { return proto.CompactTextString(m) }
 func (*AppInfoList) ProtoMessage()    {}
 func (*AppInfoList) Descriptor() ([]byte, []int) {
-	return fileDescriptor_appstore_169e528b527f53d4, []int{1}
+	return fileDescriptor_appstore_8a8eb08e84bc6215, []int{1}
 }
 func (m *AppInfoList) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_AppInfoList.Unmarshal(m, b)
@@ -337,7 +337,7 @@ func (m *SemanticVersion) Reset()         { *m = SemanticVersion{} }
 func (m *SemanticVersion) String() string { return proto.CompactTextString(m) }
 func (*SemanticVersion) ProtoMessage()    {}
 func (*SemanticVersion) Descriptor() ([]byte, []int) {
-	return fileDescriptor_appstore_169e528b527f53d4, []int{2}
+	return fileDescriptor_appstore_8a8eb08e84bc6215, []int{2}
 }
 func (m *SemanticVersion) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_SemanticVersion.Unmarshal(m, b)
@@ -394,7 +394,7 @@ func (m *RequestHeader) Reset()         { *m = RequestHeader{} }
 func (m *RequestHeader) String() string { return proto.CompactTextString(m) }
 func (*RequestHeader) ProtoMessage()    {}
 func (*RequestHeader) Descriptor() ([]byte, []int) {
-	return fileDescriptor_appstore_169e528b527f53d4, []int{3}
+	return fileDescriptor_appstore_8a8eb08e84bc6215, []int{3}
 }
 func (m *RequestHeader) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_RequestHeader.Unmarshal(m, b)
@@ -478,7 +478,7 @@ func (m *AppItem) Reset()         { *m = AppItem{} }
 func (m *AppItem) String() string { return proto.CompactTextString(m) }
 func (*AppItem) ProtoMessage()    {}
 func (*AppItem) Descriptor() ([]byte, []int) {
-	return fileDescriptor_appstore_169e528b527f53d4, []int{4}
+	return fileDescriptor_appstore_8a8eb08e84bc6215, []int{4}
 }
 func (m *AppItem) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_AppItem.Unmarshal(m, b)
@@ -593,7 +593,7 @@ func (m *AppList) Reset()         { *m = AppList{} }
 func (m *AppList) String() string { return proto.CompactTextString(m) }
 func (*AppList) ProtoMessage()    {}
 func (*AppList) Descriptor() ([]byte, []int) {
-	return fileDescriptor_appstore_169e528b527f53d4, []int{5}
+	return fileDescriptor_appstore_8a8eb08e84bc6215, []int{5}
 }
 func (m *AppList) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_AppList.Unmarshal(m, b)
@@ -631,7 +631,7 @@ func (m *IdentifierList) Reset()         { *m = IdentifierList{} }
 func (m *IdentifierList) String() string { return proto.CompactTextString(m) }
 func (*IdentifierList) ProtoMessage()    {}
 func (*IdentifierList) Descriptor() ([]byte, []int) {
-	return fileDescriptor_appstore_169e528b527f53d4, []int{6}
+	return fileDescriptor_appstore_8a8eb08e84bc6215, []int{6}
 }
 func (m *IdentifierList) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_IdentifierList.Unmarshal(m, b)
@@ -669,7 +669,7 @@ func (m *BannerConfig) Reset()         { *m = BannerConfig{} }
 func (m *BannerConfig) String() string { return proto.CompactTextString(m) }
 func (*BannerConfig) ProtoMessage()    {}
 func (*BannerConfig) Descriptor() ([]byte, []int) {
-	return fileDescriptor_appstore_169e528b527f53d4, []int{7}
+	return fileDescriptor_appstore_8a8eb08e84bc6215, []int{7}
 }
 func (m *BannerConfig) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_BannerConfig.Unmarshal(m, b)
@@ -711,9 +711,9 @@ func init() {
 	proto.RegisterEnum("spotify.AppItem_Type", AppItem_Type_name, AppItem_Type_value)
 }
 
-func init() { proto.RegisterFile("appstore.proto", fileDescriptor_appstore_169e528b527f53d4) }
+func init() { proto.RegisterFile("appstore.proto", fileDescriptor_appstore_8a8eb08e84bc6215) }
 
-var fileDescriptor_appstore_169e528b527f53d4 = []byte{
+var fileDescriptor_appstore_8a8eb08e84bc6215 = []byte{
 	// 974 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x84, 0x55, 0x6b, 0x6f, 0xe3, 0x44,
 	0x14, 0xdd, 0xbc, 0x93, 0xeb, 0x24, 0x9d, 0x0e, 0xdd, 0xc5, 0x42, 0xc0, 0x46, 0x16, 0x5a, 0x55,

@@ -60,7 +60,7 @@ func (x *SearchRequest_Type) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (SearchRequest_Type) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_search_bcc6fdd66714a90e, []int{0, 0}
+	return fileDescriptor_search_0d264058b5fd019f, []int{0, 0}
 }
 
 type SearchRequest struct {
@@ -78,7 +78,7 @@ func (m *SearchRequest) Reset()         { *m = SearchRequest{} }
 func (m *SearchRequest) String() string { return proto.CompactTextString(m) }
 func (*SearchRequest) ProtoMessage()    {}
 func (*SearchRequest) Descriptor() ([]byte, []int) {
-	return fileDescriptor_search_bcc6fdd66714a90e, []int{0}
+	return fileDescriptor_search_0d264058b5fd019f, []int{0}
 }
 func (m *SearchRequest) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_SearchRequest.Unmarshal(m, b)
@@ -146,7 +146,7 @@ func (m *Playlist) Reset()         { *m = Playlist{} }
 func (m *Playlist) String() string { return proto.CompactTextString(m) }
 func (*Playlist) ProtoMessage()    {}
 func (*Playlist) Descriptor() ([]byte, []int) {
-	return fileDescriptor_search_bcc6fdd66714a90e, []int{1}
+	return fileDescriptor_search_0d264058b5fd019f, []int{1}
 }
 func (m *Playlist) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Playlist.Unmarshal(m, b)
@@ -201,7 +201,7 @@ func (m *User) Reset()         { *m = User{} }
 func (m *User) String() string { return proto.CompactTextString(m) }
 func (*User) ProtoMessage()    {}
 func (*User) Descriptor() ([]byte, []int) {
-	return fileDescriptor_search_bcc6fdd66714a90e, []int{2}
+	return fileDescriptor_search_0d264058b5fd019f, []int{2}
 }
 func (m *User) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_User.Unmarshal(m, b)
@@ -266,7 +266,7 @@ func (m *SearchReply) Reset()         { *m = SearchReply{} }
 func (m *SearchReply) String() string { return proto.CompactTextString(m) }
 func (*SearchReply) ProtoMessage()    {}
 func (*SearchReply) Descriptor() ([]byte, []int) {
-	return fileDescriptor_search_bcc6fdd66714a90e, []int{3}
+	return fileDescriptor_search_0d264058b5fd019f, []int{3}
 }
 func (m *SearchReply) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_SearchReply.Unmarshal(m, b)
@@ -343,9 +343,9 @@ func init() {
 	proto.RegisterEnum("spotify.SearchRequest_Type", SearchRequest_Type_name, SearchRequest_Type_value)
 }
 
-func init() { proto.RegisterFile("search.proto", fileDescriptor_search_bcc6fdd66714a90e) }
+func init() { proto.RegisterFile("search.proto", fileDescriptor_search_0d264058b5fd019f) }
 
-var fileDescriptor_search_bcc6fdd66714a90e = []byte{
+var fileDescriptor_search_0d264058b5fd019f = []byte{
 	// 448 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x8c, 0x52, 0x4f, 0x6f, 0x94, 0x40,
 	0x14, 0x97, 0x05, 0xb6, 0xf0, 0xda, 0xae, 0xec, 0x8b, 0x31, 0xa4, 0xf5, 0x80, 0xc4, 0x44, 0x2e,

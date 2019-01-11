@@ -28,7 +28,7 @@ func (m *PopcountRequest) Reset()         { *m = PopcountRequest{} }
 func (m *PopcountRequest) String() string { return proto.CompactTextString(m) }
 func (*PopcountRequest) ProtoMessage()    {}
 func (*PopcountRequest) Descriptor() ([]byte, []int) {
-	return fileDescriptor_popcount_5bb558a323db9863, []int{0}
+	return fileDescriptor_popcount_231ba5c7a513f371, []int{0}
 }
 func (m *PopcountRequest) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_PopcountRequest.Unmarshal(m, b)
@@ -63,7 +63,7 @@ func (m *PopcountResult) Reset()         { *m = PopcountResult{} }
 func (m *PopcountResult) String() string { return proto.CompactTextString(m) }
 func (*PopcountResult) ProtoMessage()    {}
 func (*PopcountResult) Descriptor() ([]byte, []int) {
-	return fileDescriptor_popcount_5bb558a323db9863, []int{1}
+	return fileDescriptor_popcount_231ba5c7a513f371, []int{1}
 }
 func (m *PopcountResult) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_PopcountResult.Unmarshal(m, b)
@@ -123,9 +123,9 @@ func init() {
 	proto.RegisterType((*PopcountResult)(nil), "spotify.PopcountResult")
 }
 
-func init() { proto.RegisterFile("popcount.proto", fileDescriptor_popcount_5bb558a323db9863) }
+func init() { proto.RegisterFile("popcount.proto", fileDescriptor_popcount_231ba5c7a513f371) }
 
-var fileDescriptor_popcount_5bb558a323db9863 = []byte{
+var fileDescriptor_popcount_231ba5c7a513f371 = []byte{
 	// 175 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x74, 0x8b, 0xb1, 0xca, 0xc2, 0x30,
 	0x14, 0x46, 0xc9, 0xdf, 0x96, 0xdf, 0xde, 0xa1, 0xe2, 0x55, 0x24, 0x83, 0x43, 0xe8, 0x94, 0x49,

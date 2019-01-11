@@ -30,7 +30,7 @@ func (m *Item) Reset()         { *m = Item{} }
 func (m *Item) String() string { return proto.CompactTextString(m) }
 func (*Item) ProtoMessage()    {}
 func (*Item) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4content_5eaa8ad8887a4f76, []int{0}
+	return fileDescriptor_playlist4content_195b69ac1b08267a, []int{0}
 }
 func (m *Item) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Item.Unmarshal(m, b)
@@ -77,7 +77,7 @@ func (m *ListItems) Reset()         { *m = ListItems{} }
 func (m *ListItems) String() string { return proto.CompactTextString(m) }
 func (*ListItems) ProtoMessage()    {}
 func (*ListItems) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4content_5eaa8ad8887a4f76, []int{1}
+	return fileDescriptor_playlist4content_195b69ac1b08267a, []int{1}
 }
 func (m *ListItems) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ListItems.Unmarshal(m, b)
@@ -130,7 +130,7 @@ func (m *ContentRange) Reset()         { *m = ContentRange{} }
 func (m *ContentRange) String() string { return proto.CompactTextString(m) }
 func (*ContentRange) ProtoMessage()    {}
 func (*ContentRange) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4content_5eaa8ad8887a4f76, []int{2}
+	return fileDescriptor_playlist4content_195b69ac1b08267a, []int{2}
 }
 func (m *ContentRange) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ContentRange.Unmarshal(m, b)
@@ -187,7 +187,7 @@ func (m *ListContentSelection) Reset()         { *m = ListContentSelection{} }
 func (m *ListContentSelection) String() string { return proto.CompactTextString(m) }
 func (*ListContentSelection) ProtoMessage()    {}
 func (*ListContentSelection) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4content_5eaa8ad8887a4f76, []int{3}
+	return fileDescriptor_playlist4content_195b69ac1b08267a, []int{3}
 }
 func (m *ListContentSelection) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ListContentSelection.Unmarshal(m, b)
@@ -306,10 +306,10 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("playlist4content.proto", fileDescriptor_playlist4content_5eaa8ad8887a4f76)
+	proto.RegisterFile("playlist4content.proto", fileDescriptor_playlist4content_195b69ac1b08267a)
 }
 
-var fileDescriptor_playlist4content_5eaa8ad8887a4f76 = []byte{
+var fileDescriptor_playlist4content_195b69ac1b08267a = []byte{
 	// 439 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x6c, 0x52, 0x5b, 0x6f, 0xd3, 0x30,
 	0x14, 0x56, 0xe9, 0x65, 0xe9, 0x69, 0x3a, 0x81, 0x59, 0x87, 0x55, 0x4d, 0x28, 0x0a, 0x12, 0xea,

@@ -31,7 +31,7 @@ func (m *Subscription) Reset()         { *m = Subscription{} }
 func (m *Subscription) String() string { return proto.CompactTextString(m) }
 func (*Subscription) ProtoMessage()    {}
 func (*Subscription) Descriptor() ([]byte, []int) {
-	return fileDescriptor_pubsub_50baef6d1323b56e, []int{0}
+	return fileDescriptor_pubsub_b8a217626649b38f, []int{0}
 }
 func (m *Subscription) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Subscription.Unmarshal(m, b)
@@ -76,9 +76,9 @@ func init() {
 	proto.RegisterType((*Subscription)(nil), "spotify.Subscription")
 }
 
-func init() { proto.RegisterFile("pubsub.proto", fileDescriptor_pubsub_50baef6d1323b56e) }
+func init() { proto.RegisterFile("pubsub.proto", fileDescriptor_pubsub_b8a217626649b38f) }
 
-var fileDescriptor_pubsub_50baef6d1323b56e = []byte{
+var fileDescriptor_pubsub_b8a217626649b38f = []byte{
 	// 123 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0xe2, 0xe2, 0x29, 0x28, 0x4d, 0x2a,
 	0x2e, 0x4d, 0xd2, 0x2b, 0x28, 0xca, 0x2f, 0xc9, 0x17, 0x62, 0x2f, 0x2e, 0xc8, 0x2f, 0xc9, 0x4c,

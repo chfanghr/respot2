@@ -1,3 +1,5 @@
+syntax = "proto2";
+
 package spotify;
 
 message ClientResponseEncrypted {
@@ -8,7 +10,7 @@ message ClientResponseEncrypted {
     required SystemInfo system_info = 0x32; 
     optional string platform_model = 0x3c; 
     optional string version_string = 0x46; 
-    optional LibspotifyAppKey appkey = 0x50; 
+    optional LibSpotifyAppKey appkey = 0x50; 
     optional ClientInfo client_info = 0x5a; 
 }
 
@@ -20,9 +22,9 @@ message LoginCredentials {
 
 enum AuthenticationType {
     AUTHENTICATION_USER_PASS = 0x0;
-    AUTHENTICATION_STORED_SPOTIFY_CREDENTIALS = 0x1;
+    AUTHENTICATION_STORED_Spotify_CREDENTIALS = 0x1;
     AUTHENTICATION_STORED_FACEBOOK_CREDENTIALS = 0x2;
-    AUTHENTICATION_SPOTIFY_TOKEN = 0x3;
+    AUTHENTICATION_Spotify_TOKEN = 0x3;
     AUTHENTICATION_FACEBOOK_TOKEN = 0x4;
 }
 
@@ -117,7 +119,7 @@ enum Os {
     OS_BCO = 0x16;
 }
 
-message LibspotifyAppKey {
+message LibSpotifyAppKey {
     required uint32 version = 0x1; 
     required bytes devkey = 0x2; 
     required bytes signature = 0x3; 
@@ -152,7 +154,7 @@ enum AccountType {
 }
 
 message AccountInfo {
-    optional AccountInfoSpotify spotify = 0x1;
+    optional AccountInfoSpotify Spotify = 0x1;
     optional AccountInfoFacebook facebook = 0x2;
 }
 
@@ -163,3 +165,4 @@ message AccountInfoFacebook {
     optional string access_token = 0x1;
     optional string machine_id = 0x2;
 }
+

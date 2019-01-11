@@ -16,17 +16,17 @@ const (
 	APResolveEndpoint  = "http://apresolve.spotify.com/"
 )
 
-type APResolver struct {
+type apResolver struct {
 	lock   sync.Locker
 	client *http.Client
-	list   APList
+	list   apList
 }
 
-type APList struct {
+type apList struct {
 	APList []string `json:"ap_list"`
 }
 
-func NewAPResolver(dialer proxy.Dialer) *APResolver {
+func newAPResolver(dialer proxy.Dialer) *apResolver {
 	if dialer == nil {
 		dialer = proxy.Direct
 	}
@@ -53,24 +53,24 @@ func NewAPResolver(dialer proxy.Dialer) *APResolver {
 			}
 		},
 	}}
-	return &APResolver{client: cl, lock: new(sync.Mutex)}
+	return &apResolver{client: cl, lock: new(sync.Mutex)}
 }
 
-func (a *APResolver) doJob(job func() error) error {
+func (a *apResolver) doJob(job func() error) error {
 	a.lock.Lock()
 	defer a.lock.Unlock()
 	return job()
 }
 
-func (a APResolver) GetAPAddrList() (res []string, err error) {
+func (a apResolver) GetAPAddrList() (res []string, err error) {
 	if len(a.list.APList) == 0 {
-		err = errors.New("APResolver : empty aplist")
+		err = errors.New("apResolver : empty aplist")
 	}
 	res = a.list.APList
 	return
 }
 
-func (a APResolver) GetRandomAPAddr() (string, error) {
+func (a apResolver) GetRandomAPAddr() (string, error) {
 	apLists, err := a.GetAPAddrList()
 	if err != nil {
 		return "", err
@@ -78,7 +78,7 @@ func (a APResolver) GetRandomAPAddr() (string, error) {
 	return apLists[rand.Intn(len(apLists))], nil
 }
 
-func (a *APResolver) Resolve() (err error) {
+func (a *apResolver) Resolve() (err error) {
 	tryEndpoint := func(endpoint string) (err error) {
 		res, err := a.client.Get(endpoint)
 		defer func() {
@@ -97,7 +97,7 @@ func (a *APResolver) Resolve() (err error) {
 	}
 	if err = tryEndpoint(APResolveEndpoint); err != nil {
 		if err = tryEndpoint(APFallBackEndpoint); err != nil {
-			return errors.New("APResolver : resolve failed")
+			return errors.New("apResolver : resolve failed")
 		} else {
 			return nil
 		}

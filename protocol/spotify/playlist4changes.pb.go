@@ -54,7 +54,7 @@ func (x *ChangeSet_Kind) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (ChangeSet_Kind) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4changes_c5b133bd1e5c9898, []int{3, 0}
+	return fileDescriptor_playlist4changes_4a6460421d8f58ea, []int{3, 0}
 }
 
 type ChangeInfo struct {
@@ -75,7 +75,7 @@ func (m *ChangeInfo) Reset()         { *m = ChangeInfo{} }
 func (m *ChangeInfo) String() string { return proto.CompactTextString(m) }
 func (*ChangeInfo) ProtoMessage()    {}
 func (*ChangeInfo) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4changes_c5b133bd1e5c9898, []int{0}
+	return fileDescriptor_playlist4changes_4a6460421d8f58ea, []int{0}
 }
 func (m *ChangeInfo) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ChangeInfo.Unmarshal(m, b)
@@ -164,7 +164,7 @@ func (m *Delta) Reset()         { *m = Delta{} }
 func (m *Delta) String() string { return proto.CompactTextString(m) }
 func (*Delta) ProtoMessage()    {}
 func (*Delta) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4changes_c5b133bd1e5c9898, []int{1}
+	return fileDescriptor_playlist4changes_4a6460421d8f58ea, []int{1}
 }
 func (m *Delta) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Delta.Unmarshal(m, b)
@@ -218,7 +218,7 @@ func (m *Merge) Reset()         { *m = Merge{} }
 func (m *Merge) String() string { return proto.CompactTextString(m) }
 func (*Merge) ProtoMessage()    {}
 func (*Merge) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4changes_c5b133bd1e5c9898, []int{2}
+	return fileDescriptor_playlist4changes_4a6460421d8f58ea, []int{2}
 }
 func (m *Merge) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Merge.Unmarshal(m, b)
@@ -272,7 +272,7 @@ func (m *ChangeSet) Reset()         { *m = ChangeSet{} }
 func (m *ChangeSet) String() string { return proto.CompactTextString(m) }
 func (*ChangeSet) ProtoMessage()    {}
 func (*ChangeSet) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4changes_c5b133bd1e5c9898, []int{3}
+	return fileDescriptor_playlist4changes_4a6460421d8f58ea, []int{3}
 }
 func (m *ChangeSet) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ChangeSet.Unmarshal(m, b)
@@ -325,7 +325,7 @@ func (m *RevisionTaggedChangeSet) Reset()         { *m = RevisionTaggedChangeSet
 func (m *RevisionTaggedChangeSet) String() string { return proto.CompactTextString(m) }
 func (*RevisionTaggedChangeSet) ProtoMessage()    {}
 func (*RevisionTaggedChangeSet) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4changes_c5b133bd1e5c9898, []int{4}
+	return fileDescriptor_playlist4changes_4a6460421d8f58ea, []int{4}
 }
 func (m *RevisionTaggedChangeSet) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_RevisionTaggedChangeSet.Unmarshal(m, b)
@@ -372,7 +372,7 @@ func (m *Diff) Reset()         { *m = Diff{} }
 func (m *Diff) String() string { return proto.CompactTextString(m) }
 func (*Diff) ProtoMessage()    {}
 func (*Diff) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4changes_c5b133bd1e5c9898, []int{5}
+	return fileDescriptor_playlist4changes_4a6460421d8f58ea, []int{5}
 }
 func (m *Diff) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Diff.Unmarshal(m, b)
@@ -429,7 +429,7 @@ func (m *ListDump) Reset()         { *m = ListDump{} }
 func (m *ListDump) String() string { return proto.CompactTextString(m) }
 func (*ListDump) ProtoMessage()    {}
 func (*ListDump) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4changes_c5b133bd1e5c9898, []int{6}
+	return fileDescriptor_playlist4changes_4a6460421d8f58ea, []int{6}
 }
 func (m *ListDump) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ListDump.Unmarshal(m, b)
@@ -507,7 +507,7 @@ func (m *ListChanges) Reset()         { *m = ListChanges{} }
 func (m *ListChanges) String() string { return proto.CompactTextString(m) }
 func (*ListChanges) ProtoMessage()    {}
 func (*ListChanges) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4changes_c5b133bd1e5c9898, []int{7}
+	return fileDescriptor_playlist4changes_4a6460421d8f58ea, []int{7}
 }
 func (m *ListChanges) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ListChanges.Unmarshal(m, b)
@@ -592,7 +592,7 @@ func (m *SelectedListContent) Reset()         { *m = SelectedListContent{} }
 func (m *SelectedListContent) String() string { return proto.CompactTextString(m) }
 func (*SelectedListContent) ProtoMessage()    {}
 func (*SelectedListContent) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4changes_c5b133bd1e5c9898, []int{8}
+	return fileDescriptor_playlist4changes_4a6460421d8f58ea, []int{8}
 }
 func (m *SelectedListContent) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_SelectedListContent.Unmarshal(m, b)
@@ -717,10 +717,10 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("playlist4changes.proto", fileDescriptor_playlist4changes_c5b133bd1e5c9898)
+	proto.RegisterFile("playlist4changes.proto", fileDescriptor_playlist4changes_4a6460421d8f58ea)
 }
 
-var fileDescriptor_playlist4changes_c5b133bd1e5c9898 = []byte{
+var fileDescriptor_playlist4changes_4a6460421d8f58ea = []byte{
 	// 844 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0xd4, 0x55, 0x51, 0x6f, 0xdb, 0x36,
 	0x10, 0x9e, 0x6d, 0xd9, 0xb1, 0xcf, 0x76, 0x90, 0x31, 0x6d, 0x2a, 0x04, 0xdd, 0xe6, 0x6a, 0x5d,

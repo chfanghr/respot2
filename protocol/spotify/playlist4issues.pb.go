@@ -63,7 +63,7 @@ func (x *ClientIssue_Level) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (ClientIssue_Level) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4issues_cfedb09eb65b56f0, []int{0, 0}
+	return fileDescriptor_playlist4issues_2e9fb3e37e27320d, []int{0, 0}
 }
 
 type ClientIssue_Code int32
@@ -111,7 +111,7 @@ func (x *ClientIssue_Code) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (ClientIssue_Code) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4issues_cfedb09eb65b56f0, []int{0, 1}
+	return fileDescriptor_playlist4issues_2e9fb3e37e27320d, []int{0, 1}
 }
 
 type ClientResolveAction_Code int32
@@ -162,7 +162,7 @@ func (x *ClientResolveAction_Code) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (ClientResolveAction_Code) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4issues_cfedb09eb65b56f0, []int{1, 0}
+	return fileDescriptor_playlist4issues_2e9fb3e37e27320d, []int{1, 0}
 }
 
 type ClientResolveAction_Initiator int32
@@ -201,7 +201,7 @@ func (x *ClientResolveAction_Initiator) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (ClientResolveAction_Initiator) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4issues_cfedb09eb65b56f0, []int{1, 1}
+	return fileDescriptor_playlist4issues_2e9fb3e37e27320d, []int{1, 1}
 }
 
 type ClientIssue struct {
@@ -217,7 +217,7 @@ func (m *ClientIssue) Reset()         { *m = ClientIssue{} }
 func (m *ClientIssue) String() string { return proto.CompactTextString(m) }
 func (*ClientIssue) ProtoMessage()    {}
 func (*ClientIssue) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4issues_cfedb09eb65b56f0, []int{0}
+	return fileDescriptor_playlist4issues_2e9fb3e37e27320d, []int{0}
 }
 func (m *ClientIssue) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ClientIssue.Unmarshal(m, b)
@@ -270,7 +270,7 @@ func (m *ClientResolveAction) Reset()         { *m = ClientResolveAction{} }
 func (m *ClientResolveAction) String() string { return proto.CompactTextString(m) }
 func (*ClientResolveAction) ProtoMessage()    {}
 func (*ClientResolveAction) Descriptor() ([]byte, []int) {
-	return fileDescriptor_playlist4issues_cfedb09eb65b56f0, []int{1}
+	return fileDescriptor_playlist4issues_2e9fb3e37e27320d, []int{1}
 }
 func (m *ClientResolveAction) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ClientResolveAction.Unmarshal(m, b)
@@ -314,10 +314,10 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("playlist4issues.proto", fileDescriptor_playlist4issues_cfedb09eb65b56f0)
+	proto.RegisterFile("playlist4issues.proto", fileDescriptor_playlist4issues_2e9fb3e37e27320d)
 }
 
-var fileDescriptor_playlist4issues_cfedb09eb65b56f0 = []byte{
+var fileDescriptor_playlist4issues_2e9fb3e37e27320d = []byte{
 	// 493 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x7c, 0x91, 0xd1, 0x6e, 0xd3, 0x30,
 	0x14, 0x86, 0x49, 0xdb, 0x80, 0x76, 0x0a, 0xc5, 0xf3, 0xe8, 0xe8, 0x2a, 0x84, 0x4a, 0x2e, 0xd0,

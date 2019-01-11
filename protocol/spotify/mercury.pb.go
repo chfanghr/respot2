@@ -54,7 +54,7 @@ func (x *MercuryReply_CachePolicy) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (MercuryReply_CachePolicy) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_mercury_73cfa875c29c9aef, []int{3, 0}
+	return fileDescriptor_mercury_457063b57bc3053a, []int{3, 0}
 }
 
 type MercuryMultiGetRequest struct {
@@ -68,7 +68,7 @@ func (m *MercuryMultiGetRequest) Reset()         { *m = MercuryMultiGetRequest{}
 func (m *MercuryMultiGetRequest) String() string { return proto.CompactTextString(m) }
 func (*MercuryMultiGetRequest) ProtoMessage()    {}
 func (*MercuryMultiGetRequest) Descriptor() ([]byte, []int) {
-	return fileDescriptor_mercury_73cfa875c29c9aef, []int{0}
+	return fileDescriptor_mercury_457063b57bc3053a, []int{0}
 }
 func (m *MercuryMultiGetRequest) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_MercuryMultiGetRequest.Unmarshal(m, b)
@@ -106,7 +106,7 @@ func (m *MercuryMultiGetReply) Reset()         { *m = MercuryMultiGetReply{} }
 func (m *MercuryMultiGetReply) String() string { return proto.CompactTextString(m) }
 func (*MercuryMultiGetReply) ProtoMessage()    {}
 func (*MercuryMultiGetReply) Descriptor() ([]byte, []int) {
-	return fileDescriptor_mercury_73cfa875c29c9aef, []int{1}
+	return fileDescriptor_mercury_457063b57bc3053a, []int{1}
 }
 func (m *MercuryMultiGetReply) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_MercuryMultiGetReply.Unmarshal(m, b)
@@ -147,7 +147,7 @@ func (m *MercuryRequest) Reset()         { *m = MercuryRequest{} }
 func (m *MercuryRequest) String() string { return proto.CompactTextString(m) }
 func (*MercuryRequest) ProtoMessage()    {}
 func (*MercuryRequest) Descriptor() ([]byte, []int) {
-	return fileDescriptor_mercury_73cfa875c29c9aef, []int{2}
+	return fileDescriptor_mercury_457063b57bc3053a, []int{2}
 }
 func (m *MercuryRequest) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_MercuryRequest.Unmarshal(m, b)
@@ -212,7 +212,7 @@ func (m *MercuryReply) Reset()         { *m = MercuryReply{} }
 func (m *MercuryReply) String() string { return proto.CompactTextString(m) }
 func (*MercuryReply) ProtoMessage()    {}
 func (*MercuryReply) Descriptor() ([]byte, []int) {
-	return fileDescriptor_mercury_73cfa875c29c9aef, []int{3}
+	return fileDescriptor_mercury_457063b57bc3053a, []int{3}
 }
 func (m *MercuryReply) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_MercuryReply.Unmarshal(m, b)
@@ -296,7 +296,7 @@ func (m *Header) Reset()         { *m = Header{} }
 func (m *Header) String() string { return proto.CompactTextString(m) }
 func (*Header) ProtoMessage()    {}
 func (*Header) Descriptor() ([]byte, []int) {
-	return fileDescriptor_mercury_73cfa875c29c9aef, []int{4}
+	return fileDescriptor_mercury_457063b57bc3053a, []int{4}
 }
 func (m *Header) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Header.Unmarshal(m, b)
@@ -363,7 +363,7 @@ func (m *UserField) Reset()         { *m = UserField{} }
 func (m *UserField) String() string { return proto.CompactTextString(m) }
 func (*UserField) ProtoMessage()    {}
 func (*UserField) Descriptor() ([]byte, []int) {
-	return fileDescriptor_mercury_73cfa875c29c9aef, []int{5}
+	return fileDescriptor_mercury_457063b57bc3053a, []int{5}
 }
 func (m *UserField) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_UserField.Unmarshal(m, b)
@@ -407,9 +407,9 @@ func init() {
 	proto.RegisterEnum("spotify.MercuryReply_CachePolicy", MercuryReply_CachePolicy_name, MercuryReply_CachePolicy_value)
 }
 
-func init() { proto.RegisterFile("mercury.proto", fileDescriptor_mercury_73cfa875c29c9aef) }
+func init() { proto.RegisterFile("mercury.proto", fileDescriptor_mercury_457063b57bc3053a) }
 
-var fileDescriptor_mercury_73cfa875c29c9aef = []byte{
+var fileDescriptor_mercury_457063b57bc3053a = []byte{
 	// 428 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x9c, 0x52, 0xdb, 0x6e, 0xd3, 0x40,
 	0x10, 0x95, 0x73, 0x25, 0x63, 0x27, 0x72, 0x56, 0xa5, 0xf8, 0x8d, 0xd4, 0x12, 0x52, 0x24, 0xa4,

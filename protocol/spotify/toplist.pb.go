@@ -29,7 +29,7 @@ func (m *Toplist) Reset()         { *m = Toplist{} }
 func (m *Toplist) String() string { return proto.CompactTextString(m) }
 func (*Toplist) ProtoMessage()    {}
 func (*Toplist) Descriptor() ([]byte, []int) {
-	return fileDescriptor_toplist_745eaa81c4d7adb1, []int{0}
+	return fileDescriptor_toplist_7615452be4590757, []int{0}
 }
 func (m *Toplist) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Toplist.Unmarshal(m, b)
@@ -60,9 +60,9 @@ func init() {
 	proto.RegisterType((*Toplist)(nil), "spotify.Toplist")
 }
 
-func init() { proto.RegisterFile("toplist.proto", fileDescriptor_toplist_745eaa81c4d7adb1) }
+func init() { proto.RegisterFile("toplist.proto", fileDescriptor_toplist_7615452be4590757) }
 
-var fileDescriptor_toplist_745eaa81c4d7adb1 = []byte{
+var fileDescriptor_toplist_7615452be4590757 = []byte{
 	// 73 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0xe2, 0xe2, 0x2d, 0xc9, 0x2f, 0xc8,
 	0xc9, 0x2c, 0x2e, 0xd1, 0x2b, 0x28, 0xca, 0x2f, 0xc9, 0x17, 0x62, 0x2f, 0x2e, 0xc8, 0x2f, 0xc9,

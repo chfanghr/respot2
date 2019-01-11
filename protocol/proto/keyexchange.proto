@@ -1,3 +1,5 @@
+syntax = "proto2";
+
 package spotify;
 
 
@@ -22,10 +24,10 @@ message BuildInfo {
 
 enum Product {
     PRODUCT_CLIENT = 0x0;
-    PRODUCT_LIBSPOTIFY= 0x1;
+    PRODUCT_LIBSpotify= 0x1;
     PRODUCT_MOBILE = 0x2;
     PRODUCT_PARTNER = 0x3;
-    PRODUCT_LIBSPOTIFY_EMBEDDED = 0x5;
+    PRODUCT_LIBSpotify_EMBEDDED = 0x5;
 }
 
 enum ProductFlags {

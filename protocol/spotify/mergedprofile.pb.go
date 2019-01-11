@@ -28,7 +28,7 @@ func (m *MergedProfileRequest) Reset()         { *m = MergedProfileRequest{} }
 func (m *MergedProfileRequest) String() string { return proto.CompactTextString(m) }
 func (*MergedProfileRequest) ProtoMessage()    {}
 func (*MergedProfileRequest) Descriptor() ([]byte, []int) {
-	return fileDescriptor_mergedprofile_867ad296b3fc0e3c, []int{0}
+	return fileDescriptor_mergedprofile_53a000c9b079631c, []int{0}
 }
 func (m *MergedProfileRequest) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_MergedProfileRequest.Unmarshal(m, b)
@@ -60,7 +60,7 @@ func (m *MergedProfileReply) Reset()         { *m = MergedProfileReply{} }
 func (m *MergedProfileReply) String() string { return proto.CompactTextString(m) }
 func (*MergedProfileReply) ProtoMessage()    {}
 func (*MergedProfileReply) Descriptor() ([]byte, []int) {
-	return fileDescriptor_mergedprofile_867ad296b3fc0e3c, []int{1}
+	return fileDescriptor_mergedprofile_53a000c9b079631c, []int{1}
 }
 func (m *MergedProfileReply) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_MergedProfileReply.Unmarshal(m, b)
@@ -99,9 +99,9 @@ func init() {
 	proto.RegisterType((*MergedProfileReply)(nil), "spotify.MergedProfileReply")
 }
 
-func init() { proto.RegisterFile("mergedprofile.proto", fileDescriptor_mergedprofile_867ad296b3fc0e3c) }
+func init() { proto.RegisterFile("mergedprofile.proto", fileDescriptor_mergedprofile_53a000c9b079631c) }
 
-var fileDescriptor_mergedprofile_867ad296b3fc0e3c = []byte{
+var fileDescriptor_mergedprofile_53a000c9b079631c = []byte{
 	// 116 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0xe2, 0x12, 0xce, 0x4d, 0x2d, 0x4a,
 	0x4f, 0x4d, 0x29, 0x28, 0xca, 0x4f, 0xcb, 0xcc, 0x49, 0xd5, 0x2b, 0x28, 0xca, 0x2f, 0xc9, 0x17,
